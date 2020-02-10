@@ -6,34 +6,34 @@ const HomePage = () => (
       <div className="menu-item">
         <div className="content">
           <h1 className="title">NOTES</h1>
-          <span className="subtitle"></span>
+          <span className="subtitle">SHOP NOW</span>
         </div>
       </div>
 
       <div className="menu-item">
         <div className="content">
           <h1 className="title">JOURNALS</h1>
-          <span className="subtitle"></span>
+          <span className="subtitle">SHOP NOW</span>
         </div>
       </div>
 
       <div className="menu-item">
         <div className="content">
           <h1 className="title">DIARIES</h1>
-          <span className="subtitle"></span>
+          <span className="subtitle">SHOP NOW</span>
         </div>
       </div>
 
       <div className="menu-item">
         <div className="content">
           <h1 className="title">CALENDARS</h1>
-          <span className="subtitle"></span>
+          <span className="subtitle">SHOP NOW</span>
         </div>
 
         <div className="menu-item">
           <div className="content">
             <h1 className="title">PLANNERS</h1>
-            <span className="subtitle"></span>
+            <span className="subtitle">SHOP NOW</span>
           </div>
         </div>
       </div>
