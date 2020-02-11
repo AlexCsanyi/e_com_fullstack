@@ -1,33 +1,37 @@
 .prod {
   margin-top: 20px;
-}
 
-#prod-desc {
-  margin-top: 16px;
-  font-size: 14px;
-  font-weight: 300;
-}
+  img {
+    width: 100%;
+  }
 
-.review {
-  background-color: #ffecec;
-  margin-top: 20px;
-  height: 82%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+  #prod-desc {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 300;
+  }
 
-.review-text {
-  padding: 30px;
-  font-style: italic;
-  font-size: 20px;
-  text-align: center;
-}
+  .review {
+    background-color: #ffecec;
+    margin-top: 20px;
+    height: 82%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.review-name {
-  font-weight: 300;
-  color: gray;
-  padding-bottom: 20px;
+  .review-text {
+    padding: 30px;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .review-name {
+    font-weight: 300;
+    color: gray;
+    padding-bottom: 20px;
+  }
 }

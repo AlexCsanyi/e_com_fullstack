@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 
+import MenuItem from "../menu-item/menu-item.component";
+
+import prod1 from "../../images/prod-01.jpg";
+import prod2 from "../../images/prod-02.jpg";
+import prod3 from "../../images/prod-03.jpg";
+
 export default class Directory extends Component {
   constructor() {
     super();
@@ -9,20 +15,37 @@ export default class Directory extends Component {
         {
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
-          image: "../../images/prod-01.jpg",
+          image: prod1,
+          alt: "product 1",
           id: 1
         },
         {
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
-          image: "../../images/prod-02.jpg",
+          image: prod2,
+          alt: "product 2",
           id: 2
         },
         {
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
-          image: "../../images/prod-03.jpg",
+          image: prod3,
+          alt: "product 3",
           id: 3
+        }
+      ],
+      reviews: [
+        {
+          text:
+            "This is a gift for my son, who is in the Navy. I am giving it to him at graduation, and I am absolutely in love with it! I hope he writes of his travels in this! It is stunning, well made and i would order again! I have had lots of compliments on it!",
+          name: "Yolanda Tamer",
+          id: 1
+        },
+        {
+          text:
+            "This review is overdue! About this customized journal for my 11 yr old daughter, who recently has been struggling at school and she absolutely loves it. She cried with joy when she saw it. Especially the custom note that was put inside. She holds it like a priceless heirloom, that's exactly what I was aiming for.. thank you so much!",
+          name: "Eric",
+          id: 2
         }
       ]
     };
@@ -31,7 +54,11 @@ export default class Directory extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="row">{this.state.sections.map()}</div>
+        <div className="row">
+          {this.state.sections.map(({ desc, id, image, alt }) => (
+            <MenuItem alt={alt} key={id} desc={desc} image={image}></MenuItem>
+          ))}
+        </div>
       </div>
     );
   }
