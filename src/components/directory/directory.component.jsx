@@ -6,6 +6,9 @@ import Review from "../review/review.component";
 import prod1 from "../../images/prod-01.jpg";
 import prod2 from "../../images/prod-02.jpg";
 import prod3 from "../../images/prod-03.jpg";
+import prod4 from "../../images/prod-04.jpg";
+import prod5 from "../../images/prod-05.jpg";
+import prod6 from "../../images/prod-06.jpg";
 
 export default class Directory extends Component {
   constructor() {
@@ -35,7 +38,29 @@ export default class Directory extends Component {
           id: 3
         }
       ],
-      altSections: [],
+      altSections: [
+        {
+          desc:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
+          image: prod4,
+          alt: "product 4",
+          id: 1
+        },
+        {
+          desc:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
+          image: prod5,
+          alt: "product 5",
+          id: 2
+        },
+        {
+          desc:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
+          image: prod6,
+          alt: "product 6",
+          id: 3
+        }
+      ],
       reviews: [
         {
           text:
@@ -73,7 +98,7 @@ export default class Directory extends Component {
               text={this.state.reviews[1].text}
               name={this.state.reviews[1].name}
             ></Review>
-            {this.state.sections.map(({ desc, id, image, alt }) => (
+            {this.state.altSections.map(({ desc, id, image, alt }) => (
               <MenuItem alt={alt} key={id} desc={desc} image={image}></MenuItem>
             ))}
           </div>
