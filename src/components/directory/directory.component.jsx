@@ -35,6 +35,7 @@ export default class Directory extends Component {
           id: 3
         }
       ],
+      altSections: [],
       reviews: [
         {
           text:
@@ -54,17 +55,30 @@ export default class Directory extends Component {
 
   render() {
     return (
-      <div className="container-fluid">
-        <div className="row">
-          {this.state.sections.map(({ desc, id, image, alt }) => (
-            <MenuItem alt={alt} key={id} desc={desc} image={image}></MenuItem>
-          ))}
-          <Review
-            text={this.state.reviews[0].text}
-            name={this.state.reviews[0].name}
-          ></Review>
+      <>
+        <div className="container-fluid">
+          <div className="row">
+            {this.state.sections.map(({ desc, id, image, alt }) => (
+              <MenuItem alt={alt} key={id} desc={desc} image={image}></MenuItem>
+            ))}
+            <Review
+              text={this.state.reviews[0].text}
+              name={this.state.reviews[0].name}
+            ></Review>
+          </div>
         </div>
-      </div>
+        <div className="container-fluid">
+          <div className="row">
+            <Review
+              text={this.state.reviews[1].text}
+              name={this.state.reviews[1].name}
+            ></Review>
+            {this.state.sections.map(({ desc, id, image, alt }) => (
+              <MenuItem alt={alt} key={id} desc={desc} image={image}></MenuItem>
+            ))}
+          </div>
+        </div>
+      </>
     );
   }
 }
