@@ -22,7 +22,8 @@ export default class Directory extends Component {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod1,
           alt: "product 1",
-          id: 1
+          id: 1,
+          url: "diaries"
         },
         {
           title: "Calendars",
@@ -30,7 +31,8 @@ export default class Directory extends Component {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod2,
           alt: "product 2",
-          id: 2
+          id: 2,
+          url: ""
         },
         {
           title: "Notebooks",
@@ -38,7 +40,8 @@ export default class Directory extends Component {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod3,
           alt: "product 3",
-          id: 3
+          id: 3,
+          url: ""
         }
       ],
       altSections: [
@@ -48,7 +51,8 @@ export default class Directory extends Component {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod4,
           alt: "product 4",
-          id: 1
+          id: 1,
+          url: ""
         },
         {
           title: "Journals",
@@ -56,7 +60,8 @@ export default class Directory extends Component {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod5,
           alt: "product 5",
-          id: 2
+          id: 2,
+          url: ""
         },
         {
           title: "Accessories",
@@ -64,7 +69,8 @@ export default class Directory extends Component {
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod6,
           alt: "product 6",
-          id: 3
+          id: 3,
+          url: ""
         }
       ],
       reviews: [
@@ -89,14 +95,8 @@ export default class Directory extends Component {
       <>
         <div className="container-fluid">
           <div className="row">
-            {this.state.sections.map(({ desc, id, image, alt, title }) => (
-              <MenuItem
-                alt={alt}
-                key={id}
-                desc={desc}
-                image={image}
-                title={title}
-              ></MenuItem>
+            {this.state.sections.map(({ id, ...otherSectionProps }) => (
+              <MenuItem key={id} {...otherSectionProps}></MenuItem>
             ))}
             <Review
               text={this.state.reviews[0].text}
@@ -110,14 +110,8 @@ export default class Directory extends Component {
               text={this.state.reviews[1].text}
               name={this.state.reviews[1].name}
             ></Review>
-            {this.state.altSections.map(({ desc, id, image, alt, title }) => (
-              <MenuItem
-                alt={alt}
-                key={id}
-                desc={desc}
-                image={image}
-                title={title}
-              ></MenuItem>
+            {this.state.altSections.map(({ id, ...otherAltSectionProps }) => (
+              <MenuItem key={id} {...otherAltSectionProps}></MenuItem>
             ))}
           </div>
         </div>
