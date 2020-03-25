@@ -17,7 +17,7 @@ export default function Cta() {
             The way to get started is to quit talking and begin doing. Our tools
             will help you boost your productivity.
           </p>
-          <CtaBtn href="https://www.etsy.com/" title="Shop now"></CtaBtn>
+          <CtaBtn href="https://www.etsy.com/" title="Shop Now"></CtaBtn>
         </div>
       </div>
     </div>
