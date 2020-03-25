@@ -70,7 +70,7 @@ export default class Directory extends Component {
         },
         {
           text:
-            "This review is overdue! About this customized journal for my 11 yr old daughter, who recently has been struggling at school and she absolutely loves it. She cried with joy when she saw it. Especially the custom note that was put inside. She holds it like a priceless heirloom, that's exactly what I was aiming for.. thank you so much!",
+            "This review is overdue! About this customized journal for my 11 yr old daughter, who recently has been struggling at school and she absolutely loves it. She cried with joy when she saw it.",
           name: "Eric",
           id: 2
         }

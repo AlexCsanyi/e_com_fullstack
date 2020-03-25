@@ -10,9 +10,9 @@ const HomePage = () => (
   <>
     <Hero></Hero>
     <Whitespace height="100px"></Whitespace>
-    <Directory></Directory>
     <Cta></Cta>
     <Information></Information>
+    <Directory></Directory>
   </>
 );
 
