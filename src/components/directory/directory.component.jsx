@@ -17,6 +17,7 @@ export default class Directory extends Component {
     this.state = {
       sections: [
         {
+          title: "Diaries",
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod1,
@@ -24,6 +25,7 @@ export default class Directory extends Component {
           id: 1
         },
         {
+          title: "Calendars",
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod2,
@@ -31,6 +33,7 @@ export default class Directory extends Component {
           id: 2
         },
         {
+          title: "Notebooks",
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod3,
@@ -40,6 +43,7 @@ export default class Directory extends Component {
       ],
       altSections: [
         {
+          title: "GratitudeBooks",
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod4,
@@ -47,6 +51,7 @@ export default class Directory extends Component {
           id: 1
         },
         {
+          title: "Journals",
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod5,
@@ -54,6 +59,7 @@ export default class Directory extends Component {
           id: 2
         },
         {
+          title: "Accessories",
           desc:
             "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
           image: prod6,
@@ -83,8 +89,14 @@ export default class Directory extends Component {
       <>
         <div className="container-fluid">
           <div className="row">
-            {this.state.sections.map(({ desc, id, image, alt }) => (
-              <MenuItem alt={alt} key={id} desc={desc} image={image}></MenuItem>
+            {this.state.sections.map(({ desc, id, image, alt, title }) => (
+              <MenuItem
+                alt={alt}
+                key={id}
+                desc={desc}
+                image={image}
+                title={title}
+              ></MenuItem>
             ))}
             <Review
               text={this.state.reviews[0].text}
@@ -98,8 +110,14 @@ export default class Directory extends Component {
               text={this.state.reviews[1].text}
               name={this.state.reviews[1].name}
             ></Review>
-            {this.state.altSections.map(({ desc, id, image, alt }) => (
-              <MenuItem alt={alt} key={id} desc={desc} image={image}></MenuItem>
+            {this.state.altSections.map(({ desc, id, image, alt, title }) => (
+              <MenuItem
+                alt={alt}
+                key={id}
+                desc={desc}
+                image={image}
+                title={title}
+              ></MenuItem>
             ))}
           </div>
         </div>
