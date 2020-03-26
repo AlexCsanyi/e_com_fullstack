@@ -32,7 +32,7 @@ export default class Directory extends Component {
           image: prod2,
           alt: "product 2",
           id: 2,
-          url: ""
+          url: "calendars"
         },
         {
           title: "Notebooks",
@@ -41,7 +41,7 @@ export default class Directory extends Component {
           image: prod3,
           alt: "product 3",
           id: 3,
-          url: ""
+          url: "notebooks"
         }
       ],
       altSections: [
@@ -52,7 +52,7 @@ export default class Directory extends Component {
           image: prod4,
           alt: "product 4",
           id: 1,
-          url: ""
+          url: "gratitudebooks"
         },
         {
           title: "Journals",
@@ -61,7 +61,7 @@ export default class Directory extends Component {
           image: prod5,
           alt: "product 5",
           id: 2,
-          url: ""
+          url: "journals"
         },
         {
           title: "Accessories",
@@ -70,7 +70,7 @@ export default class Directory extends Component {
           image: prod6,
           alt: "product 6",
           id: 3,
-          url: ""
+          url: "accessories"
         }
       ],
       reviews: [
