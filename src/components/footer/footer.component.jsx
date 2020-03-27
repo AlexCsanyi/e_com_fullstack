@@ -10,12 +10,12 @@ import {
 import "./footer.styles.scss";
 
 const Footer = () => (
-  <div class="container-fluid footer">
-    <div class="section container">
+  <div className="container-fluid footer">
+    <div className="section container">
       <footer>
-        <div class="row">
-          <div class="col-lg-12 block">
-            <div class="footer-media">
+        <div className="row">
+          <div className="col-lg-12 block">
+            <div className="footer-media">
               <ul>
                 <li>
                   <FontAwesomeIcon icon={faInstagramSquare}></FontAwesomeIcon>
@@ -33,8 +33,8 @@ const Footer = () => (
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4 block">
+        <div className="row">
+          <div className="col-lg-4 block">
             <p>
               Field Journals, <br />
               3581 Langley Street, Gray Manor, <br />
@@ -42,7 +42,7 @@ const Footer = () => (
             </p>
           </div>
 
-          <div class="col-lg-4 block">
+          <div className="col-lg-4 block">
             <p>
               FAQs
               <br />
@@ -52,7 +52,7 @@ const Footer = () => (
             </p>
           </div>
 
-          <div class="col-lg-4 block">
+          <div className="col-lg-4 block">
             <p>
               Careers
               <br />
