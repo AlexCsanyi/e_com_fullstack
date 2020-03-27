@@ -14,8 +14,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import "./header.styles.scss";
+import { auth } from "../../firebase/firebase.utils";
 
-const Header = () => (
+const Header = ({ currentUser }) => (
   <nav className="nav">
     <div className="menu-open">
       <FontAwesomeIcon
@@ -28,9 +29,15 @@ const Header = () => (
         <Link to="/">FieldJournals</Link>
       </span>
     </div>
-    <div className="sign-in-link">
-      <Link to="/signin">Sign In</Link>
-    </div>
+    {currentUser ? (
+      <div className="sign-in-link">
+        <Link onClick={() => auth.signOut()}>Sign Out</Link>
+      </div>
+    ) : (
+      <div className="sign-in-link">
+        <Link to="/signin">Sign In</Link>
+      </div>
+    )}
     <div className="cart">
       <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
     </div>
