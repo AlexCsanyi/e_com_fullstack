@@ -28,6 +28,9 @@ const Header = () => (
         <Link to="/">FieldJournals</Link>
       </span>
     </div>
+    <div className="sign-in-link">
+      <Link to="/signin">Sign In</Link>
+    </div>
     <div className="cart">
       <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
     </div>
