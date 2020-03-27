@@ -7,6 +7,7 @@ import ShopPage from "./pages/shop/shop.component";
 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header/header.component";
+import Footer from "./components/footer/footer.component";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={HomePage}></Route>
         <Route path="/shop" component={ShopPage}></Route>
       </Switch>
+      <Footer></Footer>
     </div>
   );
 }
