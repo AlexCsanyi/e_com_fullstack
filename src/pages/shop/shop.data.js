@@ -1,3 +1,40 @@
+import Calendar_01 from "../../images/collections/01_calendar/01_calendar.jpg";
+import Calendar_02 from "../../images/collections/01_calendar/02_calendar.jpg";
+import Calendar_03 from "../../images/collections/01_calendar/03_calendar.jpg";
+import Calendar_04 from "../../images/collections/01_calendar/04_calendar.jpg";
+import Calendar_05 from "../../images/collections/01_calendar/05_calendar.jpg";
+
+import Journal_01 from "../../images/collections/05_journal/01_journal.jpg";
+import Journal_02 from "../../images/collections/05_journal/02_journal.jpg";
+import Journal_03 from "../../images/collections/05_journal/03_journal.jpg";
+import Journal_04 from "../../images/collections/05_journal/04_journal.jpg";
+import Journal_05 from "../../images/collections/05_journal/05_journal.jpg";
+
+import Planner_01 from "../../images/collections/04_planner/01_planner.jpg";
+import Planner_02 from "../../images/collections/04_planner/02_planner.jpg";
+import Planner_03 from "../../images/collections/04_planner/03_planner.jpg";
+import Planner_04 from "../../images/collections/04_planner/04_planner.jpg";
+import Planner_05 from "../../images/collections/04_planner/05_planner.jpg";
+
+import Gratitude_01 from "../../images/collections/03_gratitude/01_gratitude.jpg";
+import Gratitude_02 from "../../images/collections/03_gratitude/02_gratitude.jpg";
+import Gratitude_03 from "../../images/collections/03_gratitude/03_gratitude.jpg";
+import Gratitude_04 from "../../images/collections/03_gratitude/04_gratitude.jpg";
+import Gratitude_05 from "../../images/collections/03_gratitude/05_gratitude.jpg";
+
+import Accessory_01 from "../../images/collections/02_accessory/01_accessory.jpg";
+import Accessory_02 from "../../images/collections/02_accessory/02_accessory.jpg";
+import Accessory_03 from "../../images/collections/02_accessory/03_accessory.jpg";
+import Accessory_04 from "../../images/collections/02_accessory/04_accessory.jpg";
+import Accessory_05 from "../../images/collections/02_accessory/05_accessory.jpg";
+
+import Diary_01 from "../../images/collections/06_diary/01_diary.jpg";
+import Diary_02 from "../../images/collections/06_diary/02_diary.jpg";
+import Diary_03 from "../../images/collections/06_diary/03_diary.jpg";
+import Diary_04 from "../../images/collections/06_diary/04_diary.jpg";
+import Diary_05 from "../../images/collections/06_diary/05_diary.jpg";
+import Diary_06 from "../../images/collections/06_diary/06_diary.jpg";
+
 const SHOP_DATA = [
   {
     id: 1,
@@ -6,56 +43,56 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        name: "Diary",
+        imageUrl: `${Diary_01}`,
         price: 25
       },
       {
         id: 2,
-        name: "Blue Beanie",
-        imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
+        name: "Diary B",
+        imageUrl: `${Diary_02}`,
         price: 18
       },
       {
         id: 3,
-        name: "Brown Cowboy",
-        imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
+        name: "Diary C",
+        imageUrl: `${Diary_03}`,
         price: 35
       },
       {
         id: 4,
-        name: "Grey Brim",
-        imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
+        name: "Diary D",
+        imageUrl: `${Diary_04}`,
         price: 25
       },
       {
         id: 5,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
+        name: "Diary F",
+        imageUrl: `${Diary_05}`,
         price: 18
       },
       {
         id: 6,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
+        name: "Diary G",
+        imageUrl: `${Diary_06}`,
         price: 14
       },
       {
         id: 7,
-        name: "Red Beanie",
-        imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
+        name: "Diary H",
+        imageUrl: `${Calendar_05}`,
         price: 18
       },
       {
         id: 8,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
+        name: "Diary J",
+        imageUrl: `${Calendar_02}`,
         price: 14
       },
       {
         id: 9,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
+        name: "Diary K",
+        imageUrl: `${Accessory_05}`,
         price: 16
       }
     ]
@@ -67,50 +104,50 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+        name: "Calendar A",
+        imageUrl: `${Calendar_01}`,
         price: 220
       },
       {
         id: 2,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
+        name: "Calendar B",
+        imageUrl: `${Calendar_02}`,
         price: 280
       },
       {
         id: 3,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
+        name: "Calendar C",
+        imageUrl: `${Calendar_03}`,
         price: 110
       },
       {
         id: 4,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
+        name: "Calendar D",
+        imageUrl: `${Calendar_04}`,
         price: 160
       },
       {
         id: 5,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
+        name: "Calendar F",
+        imageUrl: `${Calendar_05}`,
         price: 160
       },
       {
         id: 6,
-        name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
+        name: "Calendar G",
+        imageUrl: `${Diary_01}`,
         price: 160
       },
       {
         id: 7,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+        name: "Calendar H",
+        imageUrl: `${Planner_01}`,
         price: 190
       },
       {
         id: 8,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
+        name: "Calendar J",
+        imageUrl: `${Gratitude_01}`,
         price: 200
       }
     ]
@@ -122,32 +159,32 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
+        name: "Notebook A",
+        imageUrl: `${Planner_01}`,
         price: 125
       },
       {
         id: 2,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
+        name: "Notebook B",
+        imageUrl: `${Planner_02}`,
         price: 90
       },
       {
         id: 3,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
+        name: "Notebook C",
+        imageUrl: `${Planner_03}`,
         price: 90
       },
       {
         id: 4,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
+        name: "Notebook D",
+        imageUrl: `${Planner_04}`,
         price: 165
       },
       {
         id: 5,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
+        name: "Notebook F",
+        imageUrl: `${Planner_05}`,
         price: 185
       }
     ]
@@ -155,48 +192,48 @@ const SHOP_DATA = [
   {
     id: 4,
     title: "GratitudeBooks",
-    routeName: "gratitudebooks",
+    routeName: "gratitudeBooks",
     items: [
       {
         id: 1,
-        name: "Blue Tanktop",
-        imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+        name: "GratitudeBook A",
+        imageUrl: `${Gratitude_01}`,
         price: 25
       },
       {
         id: 2,
-        name: "Floral Blouse",
-        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
+        name: "GratitudeBook B",
+        imageUrl: `${Gratitude_02}`,
         price: 20
       },
       {
         id: 3,
-        name: "Floral Dress",
-        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
+        name: "GratitudeBook C",
+        imageUrl: `${Gratitude_03}`,
         price: 80
       },
       {
         id: 4,
-        name: "Red Dots Dress",
-        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
+        name: "GratitudeBook D",
+        imageUrl: `${Gratitude_04}`,
         price: 80
       },
       {
         id: 5,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
+        name: "GratitudeBook F",
+        imageUrl: `${Gratitude_05}`,
         price: 45
       },
       {
         id: 6,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
+        name: "GratitudeBook G",
+        imageUrl: `${Calendar_04}`,
         price: 135
       },
       {
         id: 7,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
+        name: "GratitudeBook H",
+        imageUrl: `${Diary_06}`,
         price: 20
       }
     ]
@@ -208,38 +245,38 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        name: "Journal A",
+        imageUrl: `${Journal_01}`,
         price: 325
       },
       {
         id: 2,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        name: "Journal B",
+        imageUrl: `${Journal_02}`,
         price: 20
       },
       {
         id: 3,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        name: "Journal C",
+        imageUrl: `${Journal_03}`,
         price: 25
       },
       {
         id: 4,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        name: "Journal D",
+        imageUrl: `${Journal_04}`,
         price: 25
       },
       {
         id: 5,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        name: "Journal F",
+        imageUrl: `${Journal_05}`,
         price: 40
       },
       {
         id: 6,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        name: "Journal E",
+        imageUrl: `${Calendar_05}`,
         price: 25
       }
     ]
@@ -251,38 +288,38 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        name: "Accessorie A",
+        imageUrl: `${Accessory_01}`,
         price: 325
       },
       {
         id: 2,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        name: "Accessorie B",
+        imageUrl: `${Accessory_02}`,
         price: 20
       },
       {
         id: 3,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        name: "Accessorie C",
+        imageUrl: `${Accessory_03}`,
         price: 25
       },
       {
         id: 4,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        name: "Accessorie D",
+        imageUrl: `${Accessory_04}`,
         price: 25
       },
       {
         id: 5,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        name: "Accessorie E",
+        imageUrl: `${Accessory_05}`,
         price: 40
       },
       {
         id: 6,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        name: "Accessorie F",
+        imageUrl: `${Calendar_03}`,
         price: 25
       }
     ]
