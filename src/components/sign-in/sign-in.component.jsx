@@ -26,17 +26,15 @@ class SignIn extends Component {
 
   handleChange = e => {
     const { value, name } = e.target;
-    console.log(e.target.name);
-
     this.setState({ [name]: value });
   };
 
   render() {
     return (
-      <div className="container-fluid sign-in-form">
+      <div className="sign-in">
         <h3>I already have an account</h3>
         <span>Sign in with your email and password</span>
-        <form onSubmit={this.handleSubmit}>
+        <form className="sign-in-form" onSubmit={this.handleSubmit}>
           <FormInput
             name="email"
             type="email"

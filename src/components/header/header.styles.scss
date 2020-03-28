@@ -42,12 +42,26 @@
   font-weight: 300;
 }
 
-.sign-in-link {
+.sign-in-up-link {
   position: absolute;
   line-height: 60px;
   right: 4em;
 
   a {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: gray;
+
+    &:hover {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+
+  span {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 14px;
