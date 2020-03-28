@@ -18,7 +18,7 @@ class SignUp extends Component {
   }
 
   handleSubmit = async event => {
-    event.preventDeafult();
+    event.preventDefault();
 
     const { displayName, email, password, confirmPassword } = this.state;
 
@@ -28,16 +28,19 @@ class SignUp extends Component {
     }
 
     try {
-      const user = await auth.createUserWithEmailAndPassword(email, password);
+      const { user } = await auth.createUserWithEmailAndPassword(
+        email,
+        password
+      );
 
       await createUserProfileDocument(user, { displayName });
 
-      this.setState = {
+      this.setState({
         displayName: "",
         email: "",
         password: "",
         confirmPassword: ""
-      };
+      });
     } catch (error) {
       console.log("Error saving user", error.message);
     }
