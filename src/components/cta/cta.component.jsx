@@ -3,7 +3,7 @@ import React from "react";
 import "./cta.styles.scss";
 
 import ctaImg from "../../images/single-prod.jpg";
-import CtaBtn from "../../utils/cta-btn/cta-btn.component";
+import CtaBtn from "../../components/cta-btn/cta-btn.component";
 
 export default function Cta() {
   return (

@@ -4,7 +4,7 @@ import Hero from "../../components/hero/hero.component";
 import Directory from "../../components/directory/directory.component";
 import Cta from "../../components/cta/cta.component";
 import Information from "../../components/info/info.component";
-import Whitespace from "../../utils/whitespace/whitespace.component";
+import Whitespace from "../../components/whitespace/whitespace.component";
 
 const HomePage = () => (
   <>

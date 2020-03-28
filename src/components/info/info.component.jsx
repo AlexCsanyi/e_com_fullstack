@@ -1,5 +1,5 @@
 import React from "react";
-import CtaBtn from "../../utils/cta-btn/cta-btn.component";
+import CtaBtn from "../../components/cta-btn/cta-btn.component";
 import "./info.styles.scss";
 
 export default function Information() {
