@@ -13,6 +13,7 @@ import "./header.styles.scss";
 import { auth } from "../../firebase/firebase.utils";
 import { connect } from "react-redux";
 import CartIcon from "../cart-icon/cart-icon.component";
+import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 
 const Header = ({ currentUser }) => (
   <nav className="nav">
@@ -36,9 +37,10 @@ const Header = ({ currentUser }) => (
         <Link to="/signin">Sign In</Link>
       </div>
     )}
-    <div className="cart">
+    <div className="cart dropdown">
       <CartIcon></CartIcon>
     </div>
+    <CartDropdown></CartDropdown>
     <div id="menu" className="menu">
       <div className="menu-close">
         <FontAwesomeIcon
