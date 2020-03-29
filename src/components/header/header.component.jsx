@@ -15,6 +15,7 @@ import {
 
 import "./header.styles.scss";
 import { auth } from "../../firebase/firebase.utils";
+import { connect } from "react-redux";
 
 const Header = ({ currentUser }) => (
   <nav className="nav">
@@ -112,4 +113,8 @@ const Header = ({ currentUser }) => (
   </nav>
 );
 
-export default Header;
+const mapStateToProps = state => ({
+  currentUser: state.user.currentUser
+});
+
+export default connect(mapStateToProps)(Header);
