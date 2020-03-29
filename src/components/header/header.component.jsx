@@ -1,11 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBars,
-  faWindowClose,
-  faShoppingCart
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faWindowClose } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faTwitterSquare,
@@ -16,6 +12,7 @@ import {
 import "./header.styles.scss";
 import { auth } from "../../firebase/firebase.utils";
 import { connect } from "react-redux";
+import CartIcon from "../cart-icon/cart-icon.component";
 
 const Header = ({ currentUser }) => (
   <nav className="nav">
@@ -40,7 +37,7 @@ const Header = ({ currentUser }) => (
       </div>
     )}
     <div className="cart">
-      <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+      <CartIcon></CartIcon>
     </div>
     <div id="menu" className="menu">
       <div className="menu-close">
