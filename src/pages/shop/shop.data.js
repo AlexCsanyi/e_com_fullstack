@@ -103,49 +103,49 @@ const SHOP_DATA = [
     routeName: "calendars",
     items: [
       {
-        id: 1,
+        id: 10,
         name: "Calendar A",
         imageUrl: `${Calendar_01}`,
         price: 220
       },
       {
-        id: 2,
+        id: 11,
         name: "Calendar B",
         imageUrl: `${Calendar_02}`,
         price: 280
       },
       {
-        id: 3,
+        id: 12,
         name: "Calendar C",
         imageUrl: `${Calendar_03}`,
         price: 110
       },
       {
-        id: 4,
+        id: 13,
         name: "Calendar D",
         imageUrl: `${Calendar_04}`,
         price: 160
       },
       {
-        id: 5,
+        id: 14,
         name: "Calendar F",
         imageUrl: `${Calendar_05}`,
         price: 160
       },
       {
-        id: 6,
+        id: 15,
         name: "Calendar G",
         imageUrl: `${Diary_01}`,
         price: 160
       },
       {
-        id: 7,
+        id: 16,
         name: "Calendar H",
         imageUrl: `${Planner_01}`,
         price: 190
       },
       {
-        id: 8,
+        id: 17,
         name: "Calendar J",
         imageUrl: `${Gratitude_01}`,
         price: 200
@@ -158,31 +158,31 @@ const SHOP_DATA = [
     routeName: "notebooks",
     items: [
       {
-        id: 1,
+        id: 18,
         name: "Notebook A",
         imageUrl: `${Planner_01}`,
         price: 125
       },
       {
-        id: 2,
+        id: 19,
         name: "Notebook B",
         imageUrl: `${Planner_02}`,
         price: 90
       },
       {
-        id: 3,
+        id: 20,
         name: "Notebook C",
         imageUrl: `${Planner_03}`,
         price: 90
       },
       {
-        id: 4,
+        id: 21,
         name: "Notebook D",
         imageUrl: `${Planner_04}`,
         price: 165
       },
       {
-        id: 5,
+        id: 22,
         name: "Notebook F",
         imageUrl: `${Planner_05}`,
         price: 185
@@ -195,43 +195,43 @@ const SHOP_DATA = [
     routeName: "gratitudeBooks",
     items: [
       {
-        id: 1,
+        id: 23,
         name: "GratitudeBook A",
         imageUrl: `${Gratitude_01}`,
         price: 25
       },
       {
-        id: 2,
+        id: 24,
         name: "GratitudeBook B",
         imageUrl: `${Gratitude_02}`,
         price: 20
       },
       {
-        id: 3,
+        id: 25,
         name: "GratitudeBook C",
         imageUrl: `${Gratitude_03}`,
         price: 80
       },
       {
-        id: 4,
+        id: 26,
         name: "GratitudeBook D",
         imageUrl: `${Gratitude_04}`,
         price: 80
       },
       {
-        id: 5,
+        id: 27,
         name: "GratitudeBook F",
         imageUrl: `${Gratitude_05}`,
         price: 45
       },
       {
-        id: 6,
+        id: 28,
         name: "GratitudeBook G",
         imageUrl: `${Calendar_04}`,
         price: 135
       },
       {
-        id: 7,
+        id: 29,
         name: "GratitudeBook H",
         imageUrl: `${Diary_06}`,
         price: 20
@@ -244,37 +244,37 @@ const SHOP_DATA = [
     routeName: "journals",
     items: [
       {
-        id: 1,
+        id: 30,
         name: "Journal A",
         imageUrl: `${Journal_01}`,
         price: 325
       },
       {
-        id: 2,
+        id: 31,
         name: "Journal B",
         imageUrl: `${Journal_02}`,
         price: 20
       },
       {
-        id: 3,
+        id: 32,
         name: "Journal C",
         imageUrl: `${Journal_03}`,
         price: 25
       },
       {
-        id: 4,
+        id: 33,
         name: "Journal D",
         imageUrl: `${Journal_04}`,
         price: 25
       },
       {
-        id: 5,
+        id: 34,
         name: "Journal F",
         imageUrl: `${Journal_05}`,
         price: 40
       },
       {
-        id: 6,
+        id: 35,
         name: "Journal E",
         imageUrl: `${Calendar_05}`,
         price: 25
@@ -287,37 +287,37 @@ const SHOP_DATA = [
     routeName: "accessories",
     items: [
       {
-        id: 1,
+        id: 36,
         name: "Accessorie A",
         imageUrl: `${Accessory_01}`,
         price: 325
       },
       {
-        id: 2,
+        id: 37,
         name: "Accessorie B",
         imageUrl: `${Accessory_02}`,
         price: 20
       },
       {
-        id: 3,
+        id: 38,
         name: "Accessorie C",
         imageUrl: `${Accessory_03}`,
         price: 25
       },
       {
-        id: 4,
+        id: 39,
         name: "Accessorie D",
         imageUrl: `${Accessory_04}`,
         price: 25
       },
       {
-        id: 5,
+        id: 40,
         name: "Accessorie E",
         imageUrl: `${Accessory_05}`,
         price: 40
       },
       {
-        id: 6,
+        id: 41,
         name: "Accessorie F",
         imageUrl: `${Calendar_03}`,
         price: 25
