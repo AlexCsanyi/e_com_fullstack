@@ -58,6 +58,7 @@ class SignIn extends Component {
             required
             value={this.state.password}
             handleChange={this.handleChange}
+            autoComplete="on"
           />
 
           <CustomButton type="submit">Sign In</CustomButton>
