@@ -1,12 +1,32 @@
 .collection-item {
   height: 350px;
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-  .image {
+  .image-container {
     width: 100%;
-    height: 95%;
-    background-size: cover;
-    background-position: center;
+    height: 300px;
+    overflow: hidden;
+
+    .image {
+      width: 100%;
+      height: 100%;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: all 0.5s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  button {
+    width: 50%;
   }
 
   .collection-footer {
