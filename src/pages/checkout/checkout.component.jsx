@@ -3,12 +3,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTrash,
-  faGift,
-  faChevronRight,
-  faChevronLeft
-} from "@fortawesome/free-solid-svg-icons";
+import { faGift } from "@fortawesome/free-solid-svg-icons";
 
 import "./checkout.styles.scss";
 import {
@@ -16,6 +11,7 @@ import {
   selectCartTotal,
   selectCartItemsCount
 } from "../../redux/cart/cart.selectors";
+import CheckoutItem from "../../components/checkout-item/checkout-item.component";
 
 const CheckoutPage = ({ cartItems, cartTotal, itemCount }) => (
   <div className="px-4 px-lg-0 checkout-container">
@@ -31,43 +27,11 @@ const CheckoutPage = ({ cartItems, cartTotal, itemCount }) => (
               <table className="table">
                 <tbody>
                   {cartItems.map(cartItem => (
-                    <tr key={cartItem.id}>
-                      <th scope="row" className="border-0">
-                        <div className="ml-2 pr-3 pb-3 pt-3 align-middle d-inline-block">
-                          <img
-                            src={cartItem.imageUrl}
-                            alt={cartItem.name}
-                            width="120"
-                            className="img-fluid rounded"
-                          />
-                        </div>
-                        <div className="ml-2 d-inline-block align-middle">
-                          <h5 className="mb-0">
-                            {" "}
-                            <span className="text-dark d-inline-block align-middle">
-                              {cartItem.name}
-                            </span>
-                          </h5>
-                          <span className="text-muted font-weight-normal font-italic d-block">
-                            Category: {cartItem.name}
-                          </span>
-                        </div>
-                      </th>
-
-                      <td className="border-0 align-middle text-center">
-                        <FontAwesomeIcon icon={faChevronLeft}></FontAwesomeIcon>
-                        <strong className="ml-3 mr-3">
-                          {cartItem.quantity}
-                        </strong>
-                        <FontAwesomeIcon
-                          icon={faChevronRight}
-                        ></FontAwesomeIcon>
-                        <strong className="ml-3 mr-3">£{cartItem.price}</strong>
-                      </td>
-                      <td className="border-0 align-middle text-center">
-                        <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>
-                      </td>
-                    </tr>
+                    <CheckoutItem
+                      key={cartItem.id}
+                      cartItem={cartItem}
+                      category={cartItems.routeName}
+                    ></CheckoutItem>
                   ))}
                 </tbody>
               </table>
@@ -146,8 +110,8 @@ const CheckoutPage = ({ cartItems, cartTotal, itemCount }) => (
                       : "£0.00"}
                   </strong>
                 </li>
-                <li class="d-flex justify-content-between py-3 border-bottom">
-                  <strong class="text-muted">Tax</strong>
+                <li className="d-flex justify-content-between py-3 border-bottom">
+                  <strong className="text-muted">Tax</strong>
                   <strong>£0.00</strong>
                 </li>
                 <li className="d-flex justify-content-between py-3 border-bottom">
