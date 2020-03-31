@@ -30,7 +30,6 @@ const CheckoutPage = ({ cartItems, cartTotal, itemCount }) => (
                     <CheckoutItem
                       key={cartItem.id}
                       cartItem={cartItem}
-                      category={cartItems.routeName}
                     ></CheckoutItem>
                   ))}
                 </tbody>
