@@ -1,0 +1,10 @@
+.collection-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media (max-width: 900px) {
+  .collection-container {
+    grid-template-columns: auto;
+  }
+}
