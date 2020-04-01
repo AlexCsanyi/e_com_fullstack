@@ -115,56 +115,56 @@ const SHOP_DATA = [
         id: 10,
         name: "Calendar A",
         imageUrl: `${Calendar_01}`,
-        price: 220,
+        price: 22,
         category: "Calendars"
       },
       {
         id: 11,
         name: "Calendar B",
         imageUrl: `${Calendar_02}`,
-        price: 280,
+        price: 8,
         category: "Calendars"
       },
       {
         id: 12,
         name: "Calendar C",
         imageUrl: `${Calendar_03}`,
-        price: 110,
+        price: 11,
         category: "Calendars"
       },
       {
         id: 13,
         name: "Calendar D",
         imageUrl: `${Calendar_04}`,
-        price: 160,
+        price: 16,
         category: "Calendars"
       },
       {
         id: 14,
         name: "Calendar F",
         imageUrl: `${Calendar_05}`,
-        price: 160,
+        price: 16,
         category: "Calendars"
       },
       {
         id: 15,
         name: "Calendar G",
         imageUrl: `${Diary_01}`,
-        price: 160,
+        price: 16,
         category: "Calendars"
       },
       {
         id: 16,
         name: "Calendar H",
         imageUrl: `${Planner_01}`,
-        price: 190,
+        price: 19,
         category: "Calendars"
       },
       {
         id: 17,
         name: "Calendar J",
         imageUrl: `${Gratitude_01}`,
-        price: 200,
+        price: 20,
         category: "Calendars"
       }
     ]
@@ -178,35 +178,35 @@ const SHOP_DATA = [
         id: 18,
         name: "Notebook A",
         imageUrl: `${Planner_01}`,
-        price: 125,
+        price: 12,
         category: "Notebooks"
       },
       {
         id: 19,
         name: "Notebook B",
         imageUrl: `${Planner_02}`,
-        price: 90,
+        price: 9,
         category: "Notebooks"
       },
       {
         id: 20,
         name: "Notebook C",
         imageUrl: `${Planner_03}`,
-        price: 90,
+        price: 9,
         category: "Notebooks"
       },
       {
         id: 21,
         name: "Notebook D",
         imageUrl: `${Planner_04}`,
-        price: 165,
+        price: 16,
         category: "Notebooks"
       },
       {
         id: 22,
         name: "Notebook F",
         imageUrl: `${Planner_05}`,
-        price: 185,
+        price: 18,
         category: "Notebooks"
       }
     ]
@@ -234,28 +234,28 @@ const SHOP_DATA = [
         id: 25,
         name: "GratitudeBook C",
         imageUrl: `${Gratitude_03}`,
-        price: 80,
+        price: 8,
         category: "GratitudeBooks"
       },
       {
         id: 26,
         name: "GratitudeBook D",
         imageUrl: `${Gratitude_04}`,
-        price: 80,
+        price: 8,
         category: "GratitudeBooks"
       },
       {
         id: 27,
         name: "GratitudeBook F",
         imageUrl: `${Gratitude_05}`,
-        price: 45,
+        price: 4,
         category: "GratitudeBooks"
       },
       {
         id: 28,
         name: "GratitudeBook G",
         imageUrl: `${Calendar_04}`,
-        price: 135,
+        price: 13,
         category: "GratitudeBooks"
       },
       {
@@ -276,7 +276,7 @@ const SHOP_DATA = [
         id: 30,
         name: "Journal A",
         imageUrl: `${Journal_01}`,
-        price: 325,
+        price: 25,
         category: "Journals"
       },
       {
@@ -304,7 +304,7 @@ const SHOP_DATA = [
         id: 34,
         name: "Journal F",
         imageUrl: `${Journal_05}`,
-        price: 40,
+        price: 4,
         category: "Journals"
       },
       {
@@ -325,7 +325,7 @@ const SHOP_DATA = [
         id: 36,
         name: "Accessorie A",
         imageUrl: `${Accessory_01}`,
-        price: 325,
+        price: 25,
         category: "Accessories"
       },
       {
@@ -353,7 +353,7 @@ const SHOP_DATA = [
         id: 40,
         name: "Accessorie E",
         imageUrl: `${Accessory_05}`,
-        price: 40,
+        price: 4,
         category: "Accessories"
       },
       {
