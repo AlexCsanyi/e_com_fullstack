@@ -4,7 +4,7 @@
 
   h3 {
     font-size: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     position: relative;
     display: inline-block;
     font-weight: bold;
@@ -19,5 +19,12 @@
     left: 0;
     background-color: rgba(236, 225, 182, 0.5);
     z-index: -1;
+  }
+
+  span {
+    display: block;
+    font-style: italic;
+    letter-spacing: 0.2px;
+    font-weight: lighter;
   }
 }

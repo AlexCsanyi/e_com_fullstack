@@ -6,6 +6,7 @@ const CollectionPreview = ({ title, items }) => {
   return (
     <div className="container-fluid collection-preview">
       <h3>{title.toUpperCase()}</h3>
+      <span>Featured Products</span>
       <div className="row">
         {items
           .filter((item, index) => index < 4)
