@@ -6,7 +6,7 @@ const COLLECTION_ID_MAP = {
   diaries: 1,
   calendars: 2,
   notebooks: 3,
-  gratitudeBooks: 4,
+  gratitudebooks: 4,
   journals: 5,
   accessories: 6
 };

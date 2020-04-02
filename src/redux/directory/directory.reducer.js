@@ -14,7 +14,7 @@ const INITIAL_STATE = {
       image: prod1,
       alt: "product 1",
       id: 1,
-      url: "diaries"
+      url: "shop/diaries"
     },
     {
       title: "Calendars",
@@ -23,7 +23,7 @@ const INITIAL_STATE = {
       image: prod2,
       alt: "product 2",
       id: 2,
-      url: "calendars"
+      url: "shop/calendars"
     },
     {
       title: "Notebooks",
@@ -32,18 +32,18 @@ const INITIAL_STATE = {
       image: prod3,
       alt: "product 3",
       id: 3,
-      url: "notebooks"
+      url: "shop/notebooks"
     }
   ],
   altSections: [
     {
-      title: "GratitudeBooks",
+      title: "Gratitudebooks",
       desc:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis totam, modi possimus neque excepturi non aspernatur rerum et incidunt vel distinctio",
       image: prod4,
       alt: "product 4",
       id: 4,
-      url: "gratitudebooks"
+      url: "shop/gratitudebooks"
     },
     {
       title: "Journals",
@@ -52,7 +52,7 @@ const INITIAL_STATE = {
       image: prod5,
       alt: "product 5",
       id: 5,
-      url: "journals"
+      url: "shop/journals"
     },
     {
       title: "Accessories",
@@ -61,7 +61,7 @@ const INITIAL_STATE = {
       image: prod6,
       alt: "product 6",
       id: 6,
-      url: "accessories"
+      url: "shop/accessories"
     }
   ],
   reviews: [
