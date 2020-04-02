@@ -35,8 +35,8 @@ import Diary_04 from "../../images/collections/06_diary/04_diary.jpg";
 import Diary_05 from "../../images/collections/06_diary/05_diary.jpg";
 import Diary_06 from "../../images/collections/06_diary/06_diary.jpg";
 
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  diaries: {
     id: 1,
     title: "Diaries",
     routeName: "diaries",
@@ -106,7 +106,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  calendars: {
     id: 2,
     title: "Calendars",
     routeName: "calendars",
@@ -169,7 +169,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  notebooks: {
     id: 3,
     title: "Notebooks",
     routeName: "notebooks",
@@ -211,10 +211,10 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  gratitudebooks: {
     id: 4,
     title: "GratitudeBooks",
-    routeName: "gratitudeBooks",
+    routeName: "gratitudebooks",
     items: [
       {
         id: 23,
@@ -267,7 +267,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  journals: {
     id: 5,
     title: "Journals",
     routeName: "journals",
@@ -316,7 +316,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  accessories: {
     id: 6,
     title: "Accessories",
     routeName: "accessories",
@@ -365,6 +365,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
