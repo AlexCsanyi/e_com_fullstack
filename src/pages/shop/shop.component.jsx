@@ -2,8 +2,24 @@ import React, { Component } from "react";
 import CollectionOverview from "../../components/collection-overview/collection-overview.component";
 import { Route } from "react-router-dom";
 import CollectionPage from "../../components/collection/collection.component";
+import {
+  firestore,
+  convertCollectionsSnapshotToMap,
+} from "../../firebase/firebase.utils";
 
 class ShopPage extends Component {
+  unsubscribeFromSnapshot = null;
+
+  componentDidMount() {
+    const collectionRef = firestore.collection("collections");
+
+    this.unsubscribeFromSnapshot = collectionRef.onSnapshot(
+      async (snapshot) => {
+        convertCollectionsSnapshotToMap(snapshot);
+      }
+    );
+  }
+
   render() {
     const { match } = this.props;
     return (
