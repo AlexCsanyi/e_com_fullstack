@@ -8,6 +8,11 @@
     position: relative;
     display: inline-block;
     font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+      color: gray;
+    }
   }
 
   h3::before {
